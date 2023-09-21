@@ -1,0 +1,72 @@
+{
+  "btnAboutUs": "Nosotros",
+  "btnServices": "Servicios",
+  "btnAboutBrik": "Sobre Brik",
+  "btnPress": "Prensa",
+  "btnContactUs": "Contacto",
+
+  "txtHome1": "Desafiar el tiempo.",
+  "txtHome2": "Explorar otra dimensión.",
+  "txtHome3": "Liberar la Cápsula",
+
+  "title1AboutUs": "Conectando",
+  "title2AboutUs": "a través del tiempo",
+  "txtNos1": "La Cápsula es el lugar al que toda persona llega para encontrar respuestas. Es donde se desafía el ahora y se ponen a prueba las dimensiones del tiempo: pasado-presente-futuro, recuperando saberes que conectan antigüedad con novedad.",
+  "txtNos2": "Explorar las opciones más innovadoras hasta encontrar la solución, es lo que pone a la Cápsula en funcionamiento.",
+  "txtNos3": "Repensamos el universo de las finanzas a partir del valor único, global y abierto.",
+  "txtNos4": "Es por ello que decidimos aplicar criptografía a nuestro desarrollo tecnológico y de esta manera, generar",
+  "txtNos5": "seguridad en nuestras operaciones.",
+  "txtNos6": "En cada uno de estos avances, validamos la necesidad de impulsar un nuevo concepto de banco.",
+
+
+  "tituloServicios": "Minería y Energía",
+  "p1MyE": "Cápsula Mining y Cápsula Energy fueron creadas en conjunto con el objetivo de acelerar la transición energética fundamentando el uso de energía renovable aplicada a la generación de valor intrínseco.",
+  "p2MyE": "Creemos que Bitcoin será la próxima reserva de valor por excelencia, ya que es un bien escaso y no responde a una entidad centralizada.",
+  "p3MyE": "Hacemos minería propulsando la generación de valor, dado que es un proceso que trabaja bajo un esquema autorregulado, tiene un supply definido y brinda seguridad sobre los activos. Cada máquina es productora de dinero y su fuerza de trabajo sincronizada, asegura  convertirse en la próxima promotora de la ",
+  "p4MyE": "estabilidad del sistema financiero.",
+  "p5MyE": "En base al alto consumo energético que demanda Cápsula Mining, se estudiaron diversas formas de abastecer el proceso. Cápsula Energy, es la unidad responsable de cubrir la demanda energética con",
+  "p6MyE": " fuentes de energía no fósiles.",
+  "p7MyE": " Esta área se ocupa de investigar regiones ricas en recursos naturales para producir energías renovables y el modo más conveniente para desarrollarlas.",
+
+  "tituloBit": "¿Qué sabés sobre el Bitcoin?",
+  "p1Bitcoin":"Bitcoin es la ",
+  "p2Bitcoin": "primera moneda digital descentralizada.",
+  "p3Bitcoin": "Son transferidos de persona a persona a través de la red sin pasar por un banco u otro intermediario." ,
+
+  "tituloMin": "¿Qué es la minería?",
+  "p1Mining":"Es el proceso de realizar cálculos matemáticos mediante computadoras para ",
+  "p2Mining": "confirmar las transacciones ",
+  "p3Mining": "en la red Bitcoin e incrementar la seguridad.",
+
+  "btnSegui": "SEGUÍ INFORMÁNDOTE",
+
+  "press1": "¨...empresa de tecnología financiera que tienen como común denominador el Bitcoin...¨",
+  "press2": "¨...El nuevo proyecto de la compañía buscará rentabilidad, cuidar el medio ambiente e impulsar el desarrollo industrial...¨",
+  "press3": "¨La startup tecnológica y financiera, tiene en mente la generación de Bitcoin usando energía solar...¨",
+  "press4": "...Corporación Cápsula quiere generar un pool argentino de minería.¨",
+  "press5": "¨...se desarrollará con energía sustentable, y con aceite mineral para refrigerar los equipos.¨",
+  "press6": "¨...Crear un pool de minería de Bitcoin renovable, bajo el esquema operativo sustentable de Cápsula Mining.¨",
+
+  "titleHomeBrik": "Puente entre finanzas tradicionales y nuevas tecnologías",
+
+  "titleBrik2": "Operaciones en un solo lugar",
+  "pBrik2": "Configuramos en un sistema, las operaciones financieras y las formas de pago más utilizadas.",
+  "titleBrik3": "Procesamiento de pagos",
+  "pBrik3": "Desarrollamos tecnología propia, para automatizar procesos y ofrecer la menor comisión de transacción.",
+  "titleBrik4": "Resguardo de valor",
+  "pBrik4": "Implementamos criptografía y sistemas de seguridad sofisticados para el control de nuestros activos.",
+
+  "footerTitle": "Transformando valor",
+
+  "footerAddress1": " Ruta Nacional Nicolás De Avellaneda, 13 Km",
+  "footerAddress2": " Avenida Maipú 2116",
+  "footerTel": "Tel, ",
+
+
+  "footerTitleFollow": "Seguinos",
+
+  "footerTyC": "Términos y condiciones",
+  "footerHelp": " Centro de ayuda",
+  "footerPrivacy": "Políticas de privacidad"
+
+}

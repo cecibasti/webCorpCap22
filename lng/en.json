@@ -1,0 +1,69 @@
+{
+  "btnAboutUs": "About us",
+  "btnServices": "Services",
+  "btnAboutBrik": "About Brik",
+  "btnPress": "Press",
+  "btnContactUs": "Contact us",
+
+  "txtHome1": "Defy time.",
+  "txtHome2": "Explore another dimension",
+  "txtHome3": "Get onboard the Capsule",
+
+  "title1AboutUs": "Connecting",
+  "title2AboutUs": "through time",
+  "txtNos1": "The capsule is where every person comes to find answers. It is where the\n“now” is challenged and time dimensions are tested: past-present-future, recovering\nknowledge that connects the past with innovation.",
+  "txtNos2": "Exploring the most innovative options until finding the best solution is what sets Cápsula in motion.",
+  "txtNos3": "Capsula rethinks the way to do finance from a unique, global and open value. ",
+  "txtNos4": "That is why we decided to include cryptography to our technological development, thus adding security in our transactions.",
+  "txtNos5": "security in our transactions.",
+  "txtNos6": "We came up with a new banking concept.",
+
+  "tituloServicios": "Mining and Energy",
+  "p1MyE": "Cápsula Mining and Cápsula Energy were both created with the aim of accelerating the energy transition by basing the use of renewable energy on the generation of intrinsic value.",
+  "p2MyE": "We believe that Bitcoin will be the next store of value for excellence, since it is a scarce digital currency and does not respond to a centralized entity.",
+  "p3MyE": "Mining propels the generation of value, since it’s a process that works under a self\nregulated scheme, it has a defined supply and provides security over assets. Each machine is a money generator. Because the machines are synchronized, it will provide ",
+  "p4MyE": "stability to the financial system.",
+  "p5MyE": "Based on the high energy consumption that Cápsula Mining demands, we studied different ways to supply the process. Cápsula Energy is the unit responsible for covering the energy demand with",
+  "p6MyE": " energy sources that do not use fossil fuels.",
+  "p7MyE": " This area’s job is to investigate regions that are rich in natural resources to generate renewable energy and the most convenient way to develop them.",
+
+  "tituloBit": "What do you know about Bitcoin?",
+  "p1Bitcoin": "Bitcoin is ",
+  "p2Bitcoin": "the first decentralized electronic currency. ",
+  "p3Bitcoin": "They are transferred peer-to-peer across the net without going through a bank or another intermediary." ,
+
+  "tituloMin": "What is mining?",
+  "p1Mining":"It is the process of solving mathematical puzzles through computers to ",
+  "p2Mining": "confirm the transactions ",
+  "p3Mining": "in the Bitcoin network and increase security.",
+
+  "btnSegui": "SEGUÍ INFORMÁNDOTE",
+
+  "press1": "¨Financial companies that both use Bitcoin.¨",
+  "press2": "¨The new project seeks rentability, to help the environment and boost industrial development.¨",
+  "press3": "¨The technological and financial startup has in mind the generation of Bitcoin using solar power¨",
+  "press4": "¨Corporación Cápsula wants to generate an argentinian mining pool¨",
+  "press5": "¨It will be developed with sustainable energy and will use mineral oils to refrigerate its machines¨",
+  "press6": "¨Create a renewable Bitcoin mining pool, under the Cápsula Mining’s operative and renewable scheme¨",
+
+  "titleHomeBrik": "A bridge between traditional finances and new technologies.",
+
+  "titleBrik2": "Every transaction in one place",
+  "pBrik2": "We set the most used financial transactions and payment methods in one system.\n",
+  "titleBrik3": "Payment processing",
+  "pBrik3": "We develop our own technology to automate procedures and offer the lowest transaction commission.",
+  "titleBrik4": "Value safekeeping",
+  "pBrik4": "We implement cryptography and sophisticated security systems to control our assets.",
+
+  "footerTitle": "Transforming value",
+
+  "footerAddress1": " national route Nicolás de Avellaneda, 13th Km ",
+  "footerAddress2": " Maipú Avenue 2116",
+  "footerTel": "Telephone ",
+
+  "footerTitleFollow": "Follow us",
+
+  "footerTyC": "Terms and conditions",
+  "footerHelp": " Help center",
+  "footerPrivacy": "Privacy policies"
+}

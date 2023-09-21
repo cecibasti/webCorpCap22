@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Corporación Cápsula</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link href="animista.css" rel="stylesheet">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b2e577da77.js" crossorigin="anonymous"></script>
+
+  <!-- javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="functions.js"></script>
+
+  <!-- jquery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <style>
+    @media screen and (max-width: 400px) {
+      .txtHome{
+        margin-left: 50px;
+      }
+    }
+  </style>
+</head>
+<body id="bodyIndex">
+<div class="container">
+  <header>
+    <nav class="navbar navbar-expand-md cn-stick-nav fixed-top" id="navbar">
+      <div class="container-fluid">
+
+        <div class="navbar-nav mx-auto" id="navbarNav" >
+
+          <a class="nav-link  txtBtnMenu white" aria-current="page" href="#divNosotros" id="btnNavNosotros">Nosotros</a>
+          <a class="nav-link txtBtnMenu white" href="#servicios" id="btnNavServicios">Servicios</a>
+          <a class="navbar-brand" href="index.html" >
+            <picture>
+              <source srcset="images/logos/Logo.svg" media="(max-device-width: 720px)">
+              <source srcset="images/logos/LogoCC.svg">
+              <img src="images/logos/LogoCC.svg" alt="logo">
+            </picture>
+          </a>
+          <a class="nav-link txtBtnMenu white inline-block" href="brik.html" id="btnNavBrik">Sobre Brik</a>
+          <a class="nav-link txtBtnMenu white" href="#prensa" id="btnNavPrensa">Prensa</a>
+
+        </div>
+        <div class="navbar-nav ml-auto">
+          <div class="col "><button type="button" class="btnPrimario" onclick="openNav()">CONTACTO</button></div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col-1 col-md-1">
+        <img src="images/contacto/contacto.svg" alt="miscAsterix" id="miscAsterix">
+      </div>
+      <div class="col col-md-6"></div>
+      <div class="col col-md-4">
+        <img src="images/contacto/groupContacto.svg" alt="miscSupCont" id="miscSupCont">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-5">
+        <h2 class="white">
+          Conversá con nosotros
+        </h2>
+      </div>
+    </div>
+    <div class="linea50"></div>
+    <div class="row">
+      <div class="col col-md-5">
+        <img src="images/contacto/miscIzqCont.svg" alt="miscIzqCont" id="miscIzqCont">
+      </div>
+      <div class="col-12 col-md-7">
+        <form action="contact.php" method="post">
+          <div class="row">
+            <div class="col-6 col-md-5">
+              <input type="text" class="inputs" placeholder="Nombre" name="nombre" id="nombre"><br>
+            </div>
+            <div class="col-6 col-md-5">
+              <input type="text" class="inputs" placeholder="Mail" name="email" id="email">
+            </div>
+            <div class="col col-md-2">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-md-1">
+              <!--                                <select class="formSelect" name="pais" id="pais">-->
+              <!--                                    <option id="arg"></option>-->
+              <!--                                </select>-->
+              <input type="text" class="inputs" placeholder="Cód.Área" name="pais" id="pais"><br>
+
+            </div>
+            <div class="col-6 col-md-4">
+              <input type="text" class="inputs" placeholder="Teléfono de contacto" name="telefono" id="telefono"><br>
+            </div>
+            <div class="col-12 col-md-5">
+              <select class="formSelect" name="areaContacto" id="areaContacto">
+                <option value="comercial">Comercial</option>
+                <option value="tecnico">Equipo Técnico</option>
+                <option value="prensa">Prensa</option>
+                <option value="ayuda">Ayuda</option>
+              </select>
+            </div>
+            <div class="col-2 col-md-2">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-10">
+              <textarea class="textareaForm" rows="5" id="comment" name="comment"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-8"></div>
+            <div class="col col-md-2"><button type="submit" class="btnPrimario">ENVIAR</button></div>
+            <div class="col col-md-2"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="linea50" style="margin-top: 10px">
+      <img src="images/contacto/grupoAsterix.svg" alt="grupoAsterix" id="grupoAsterix">
+    </div>
+
+
+    <div class="row space">
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-2" id="direccionContacto">
+        <div class="sidenavTitulo" >
+          Dirección
+        </div>
+        <p class="white d-inline">RN Nicolás Avellaneda, Km 13</p>
+      </div>
+      <div class="col-12 col-md-2" id="telefonoContacto">
+        <div class="sidenavTitulo">
+          Teléfono
+        </div>
+        <p class="white d-inline">+549 11 50451774</p>
+      </div>
+      <div class="col-12 col-md-3"id="mailContacto">
+        <div class="sidenavTitulo">
+          Mail
+        </div>
+        <p class="white d-inline">contacto@corporacioncapsula.io</p>
+        <img src="images/contacto/miscDerCont.svg" alt="miscDerCont" id="miscDerCont" class="d-inline">
+      </div>
+      <div class="col col-md-4">
+
+      </div>
+    </div>
+    <div class="spaceLargo"></div>
+
+
+  </div>
+
+
+  <div  class="container" id="home">
+<!--    <img src="images/home/background2.svg" class="spaceCorto" id="fondoHome">-->
+
+    <div class="row" id="divHome" >
+      <div class="col col-md"></div>
+      <div class="col-12 col-md-12">
+        <h1 class=" white" style="text-align: center;">
+          <span class="text-focus-in txtHome" id="txt1home">Desafiar el tiempo.</span><br>
+          <span class="text-focus-in2  txtHome" id="txt2home">Explorar otra dimensión.</span>
+        </h1>
+        <h1 class=" cyan"  style="text-align: center;">
+          <span class="text-focus-in3  txtHome" id="txt3home">Liberar la Cápsula</span>
+        </h1>
+
+      </div>
+      <div class="col col-md">
+      </div>
+    </div>
+  </div>
+
+  <!--    <div id="nosotros" style="margin-top: -230px">-->
+  <div ></div>
+  <div id="divNosotros">
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-4">
+        <h2 class="white">
+          <span >Conectando </span><br>
+          <span id="time">a través del tiempo</span>
+        </h2>
+        <img src="images/nosotros/Capa_3.svg" alt="micsColores" id="miscColores">
+        <img src="images/nosotros/miscCentro.svg" alt="miscCentroNos" id="miscCentroNos">
+
+      </div>
+      <div class="col col-md-5"></div>
+      <div class="col col-md-1">
+        <img src="images/nosotros/rueda.svg" alt="rueda" id="rueda">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-md-1">
+        <img src="images/nosotros/miscIzq.svg" alt="miscIzqNos" id="miscIzqNos">
+      </div>
+      <div class="col col-md-4">
+      </div>
+      <div class="col-12 col-md-3">
+        <p class="white space" id="txtNos1">
+          La Cápsula es el lugar al que toda persona llega para encontrar respuestas. Es donde se desafía el ahora y se ponen a prueba las dimensiones del tiempo: pasado-presente-futuro, recuperando saberes que conectan antigüedad con novedad.<br><br>
+          Explorar las opciones más innovadoras hasta encontrar la solución, es lo que pone a la Cápsula en funcionamiento.
+        </p>
+      </div>
+      <div class="col-12 col-md-3">
+        <p class="white space" id="txtNos2">
+                       <span> Repensamos el universo de las finanzas a partir del valor único, global y abierto. <br>
+                           Es por ello que decidimos aplicar criptografía a nuestro desarrollo tecnológico y de esta manera, generar</span>
+          <span class="cyan"> seguridad en nuestras operaciones.</span><br><br>
+          <span class="white"> En cada uno de estos avances, validamos la necesidad de impulsar un nuevo concepto de banco.</span>
+        </p>
+      </div>
+      <div class="col col-md-1">
+        <img src="images/nosotros/miscDer.svg" alt="miscDerNos" id="miscDerNos">
+      </div>
+    </div>
+  </div>
+
+  <div id="servicios">
+
+    <!--        <div class="row" name="row1Servicios"  style="margin-top: -120px; margin-bottom: 20px">-->
+    <div class="row" name="row1Servicios">
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-5">
+        <h3 class="white">
+          Minería y Energía
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col-4 col-md-10 linea51"></div>
+      <div class="col col-md-1"></div>
+    </div>
+    <div class="row space" id="row2Servicios">
+      <div class="col col-md-5"></div>
+      <div class="col-12 col-md-3">
+        <p class="white">
+          Cápsula Mining y Cápsula Energy fueron creadas en conjunto con el objetivo de acelerar la transición energética fundamentando el uso de energía renovable aplicada a la generación de valor intrínseco.<br><br>
+          Creemos que Bitcoin será la próxima reserva de valor por excelencia, ya que es un bien escaso y no responde a una entidad centralizada.
+        </p>
+      </div>
+      <div class="col-12 col-md-3">
+        <p>
+                        <span class="white">
+                            Hacemos minería propulsando la generación de valor, dado que es un proceso que trabaja bajo un esquema autorregulado, tiene un supply definido y brinda seguridad sobre los activos. Cada máquina es productora de dinero y su fuerza de trabajo sincronizada, asegura convertirse en la próxima promotora de la
+                        </span>
+          <span class="cyan">
+                            estabilidad del sistema financiero.
+                        </span>
+        </p><br><br>
+      </div>
+    </div>
+
+    <div class="row" id="row4Servicios">
+      <div class="col col-md-5">
+      </div>
+      <div class="col col-md-3">
+        <img src="images/servicios/imgRow4Servicios.svg" alt="imgRow4">
+      </div>
+      <div class="col-12 col-md-3">
+        <p>
+                        <span class="white">
+                      En base al alto consumo energético que demanda Cápsula Mining, se estudiaron diversas formas de abastecer el proceso. Cápsula Energy, es la unidad responsable de cubrir la demanda energética con
+                        </span>
+          <span class="cyan">
+                            fuentes de energía no fósiles.
+                        </span>
+          <span class="white">
+                            Esta área se ocupa de investigar regiones ricas en recursos naturales para producir energías renovables y el modo más conveniente para desarrollarlas.
+                        </span>
+        </p>
+      </div>
+    </div>
+    <div class="row spaceCorto">
+      <div class="col col-md-1">
+        <img src="images/servicios/Group68.svg" id="group68">
+      </div>
+      <div class="col-12 col-md-3">
+        <h5 id="tituloBit">¿Qué sabés sobre el Bitcoin?</h5>
+        <img src="images/servicios/bitcoin2.svg" alt="bitcoin" id="bitcoin">
+        <p class="sub white space">
+                        <span>
+                            Bitcoin es la
+                        </span>
+          <span class="subDestacado white">
+                             primera moneda digital descentralizada.
+                         </span>
+          <span>
+                             Son transferidos de persona a persona a través de la red sin pasar por un banco u otro intermediario.
+                        </span>
+        </p>
+      </div>
+      <div class="col-12 col-md-3">
+        <h5 id="tituloMin">¿Qué es la minería?</h5>
+        <img src="images/servicios/mineria.svg" alt="mineria" id="mineria">
+        <p class="sub white space">
+          <span> Es el proceso de realizar cálculos matemáticos mediante computadoras para</span>
+
+          <span class="subDestacado white">confirmar las transacciones</span>
+
+          <span>en la red Bitcoin e incrementar la seguridad.</span>
+        </p>
+      </div>
+      <div class="col col-md-1"></div>
+      <div class="col col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col col-md-2">
+        <img src="images/servicios/lineaBtn.svg" alt="lineaBtnServ" id="lineaBtnServ1">
+      </div>
+      <div class="col col-md-2"><a href="#"><button class="btnFantasma btn3" id="btnSegui">SEGUÍ INFORMÁNDOTE</button></a></div>
+      <div class="col col-md-2">
+        <img src="images/servicios/lineaBtn.svg" alt="lineaBtnServ" id="lineaBtnServ2">
+      </div>
+
+      <div class="col col-md-1"></div>
+      <div class="col col-md-4">
+        <img src="images/servicios/Group67.svg" id="group67">
+
+      </div>
+
+    </div>
+
+  </div>
+  <div style="margin-top: 80px">
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col col-md-10">
+        <img src="images/prensa/borderTop.svg" alt="borderTop" id="borderTop1">
+      </div>
+      <div class="col col-md-1"></div>
+    </div>
+  </div>
+
+  <div class="row" id="prensa">
+    <div class="col col-md-1" prensa2>
+      <img src="images/prensa/borderLeft.svg" alt="borderLeft" id="borderLeft1">
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="row bottomDashed" id="prensa3">
+        <div class="div1">
+          <img src="images/prensa/mis1.svg" alt="miscelanea1" id="miscelanea1"><br><br>
+          <span>
+                          ¨...empresa de tecnología financiera que tienen como común denominador el Bitcoin...¨
+                        </span><br>
+          <span class="divXbold">
+                          Cointelegraph
+                        </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 rightDashed" id="prensa4">
+          <div class="div2">
+            <img src="images/prensa/mis2.svg" alt="miscelanea2" id="miscelanea2"><br><br>
+            <span>
+                                        ¨...El nuevo proyecto de la compañía buscará rentabilidad, cuidar el medio ambiente e impulsar el desarrollo industrial...¨
+                            </span><br>
+            <span class="divXbold">
+                                CriptoNoticias
+                            </span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="div3">
+            <img src="images/prensa/mis3.svg" alt="miscelanea3" id="miscelanea3"><br><br>
+            <span>
+                                    ¨La startup tecnológica y financiera, tiene en mente la generación de Bitcoin usando energía solar...¨
+                            </span>
+            <span class="divXbold">
+                                    iProUp
+                            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 ">
+      <div class="bottomDashed leftDashed div4" id="prensa5">
+        <img src="images/prensa/mis4.svg" alt="miscelanea4" id="miscelanea4"><br>
+        <span>
+                            ¨...Corporación Cápsula quiere generar un pool argentino de minería.¨
+                        </span>
+        <span class="divXbold">
+                            Clarín
+                        </span>
+      </div>
+      <div class="bottomDashed leftDashed div5" id="prensa6">
+        <img src="images/prensa/mis5.svg" alt="miscelanea5" id="miscelanea5"><br>
+        <span>
+                                    ¨...se desarrollará con energía sustentable, y con aceite mineral para refrigerar los equipos.¨
+                            </span>
+        <span class="divXbold">
+                                 Cripto247
+                            </span>
+
+      </div>
+      <div class="leftDashed div6" id="prensa7">
+        <img src="images/prensa/mis6.svg" alt="miscelanea6" id="miscelanea6"><br>
+        <span>
+                                ¨...Crear un pool de minería de Bitcoin renovable, bajo el esquema operativo sustentable de Cápsula Mining.¨
+                            </span>
+        <span class="divXbold">
+                                Ámbito
+                            </span>
+
+      </div>
+    </div>
+    <div class="col col-md-1">
+      <img src="images/prensa/borderRight.svg" alt="borderRight" id="borderRight1">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-md-1"></div>
+    <div class="col col-md-10">
+      <img src="images/prensa/borderBottom.svg" alt="borderBottom" id="borderBottom1">
+    </div>
+    <div class="col col-md-1"></div>
+  </div>
+
+  <div class="row spaceLargo">
+    <img src="images/prensa/preFooter.svg" alt="miscPreFooter" id="miscPreFooter">
+  </div>
+  <footer id="footer">
+    <div class="row">
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-3">
+        <div>
+          <img src="images/logos/Logo.svg" class="logoFooter" alt="logoFooter" id="logoFooter"><p class="txtFooterBig d-inline">  Conectando Soluciones</p>
+        </div   >
+        <div class="divFooter"></div> <!--linea-->
+        <div>
+          <img src="images/iconos/map-marker-alt.svg"><p class="textoFooter cyan d-inline"> Chaco, </p><a class="textoFooter white d-inline" href="#"> Ruta Nacional Nicolás De Avellaneda, 13 Km</a><br>
+          <img src="images/iconos/map-marker-alt.svg"><p class="textoFooter cyan d-inline"> Buenos Aires, </p><a class="textoFooter white d-inline" href="https://goo.gl/maps/TAkmeR5wbzZuT9G67"> Avenida Maipú 2116</a><br>
+          <img src="images/iconos/phone-alt.svg"><p class="textoFooter cyan d-inline"> Tel, </p><a class="textoFooter white d-inline" href="tel:+5491150451774"> +549 11 50451774</a><br>
+          <img src="images/iconos/at.svg"><p class="textoFooter cyan d-inline"> Mail, </p><a class="textoFooter white d-inline" href="mailto:contacto@corporacioncapsula.io"> contacto@corporacioncapsula.io</a><br>
+        </div>
+      </div>
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-1">
+        <div>
+          <a href="#nosotros" class="textoFooter white">Nosotros</a>
+          <a href="#servicios" class="textoFooter white">Servicios</a>
+          <a href="brik.html" class="textoFooter white">Sobre Brik</a>
+          <a  href="#prensa" class="textoFooter white">Prensa</a>
+
+        </div>
+        <div>
+          <p class="textoFooter cyan spaceCorto">Seguinos</p>
+          <a href="https://www.linkedin.com/company/corp-cap/"><i class="fa-brands fa-linkedin-in white icon"></i></a>
+          <a href="https://twitter.com/corpcaplabs"><i class="fa-brands fa-twitter white spaceIcons icon"></i></a>
+          <a href="https://www.reddit.com/user/corpcap"><i class="fa-brands fa-reddit-alien white spaceIcons icon"></i></a>
+        </div>
+      </div>
+      <div class="col col-md-1"></div>
+      <div class="col-12 col-md-5">
+        <div class="spaceLargoFooter">
+          <a class="textoFooter white spaceRight d-inline">Términos y condiciones</a>
+          <a class="textoFooter white spaceRight d-inline">Centro de ayuda</a>
+          <a class="textoFooter white  spaceRight d-inline">Políticas de privacidad</a>
+          <p class="copyright d-inline">©Copyright 2022</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</div>
+<script>
+
+
+
+
+</script>
+</body>
+
+</html>
